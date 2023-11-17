@@ -41,9 +41,9 @@ a {
 }
 
 .sidebar {
-	background: royalblue;
-	box-sizing: border-box;
-	width: 300px;
+  background: royalblue;
+  box-sizing: border-box;
+  width: 300px;
 }
 
 .cards {
@@ -54,13 +54,13 @@ a {
 }
 
 .card {
-	border-radius: 4px;
-	border: 1px solid #eee;
-	box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-	font-size: 12px;
-	height: 200px;
-	padding: 8px;
-	width: 200px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  font-size: 12px;
+  height: 200px;
+  padding: 8px;
+  width: 200px;
 }
 
 .sidebar-main {
