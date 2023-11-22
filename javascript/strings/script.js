@@ -22,3 +22,11 @@ function greet() {
 }
 
 button.addEventListener("click", greet);
+
+/* Including expressions in strings */
+const song = "Fight the Youth";
+const score = 9;
+const highestScrore = 10;
+const output = `I like the song ${song}. I gave it a score of ${
+	(score / highestScrore) * 100}%.`
+console.log(output);
