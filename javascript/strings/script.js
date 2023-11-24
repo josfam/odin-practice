@@ -1,3 +1,8 @@
+/*wrapper around console.log*/
+const log = function (x){
+	console.log(x);
+}
+
 const string = 'The revolution will not be televised.';
 console.log(string);
 
@@ -40,3 +45,12 @@ console.log(typeof(myString));
 console.log(
 	`${Number(123.5)} is a ${typeof(Number("123.5"))}`
 );
+
+// string creation
+const string1 = "A string primitive";
+const string2 = 'Also a string primitive';
+const string3 = `Yet another string primitive`;
+const string4 = new String("A string object");
+
+// accessing characters
+log("cat".charAt(1));
