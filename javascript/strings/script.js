@@ -30,3 +30,13 @@ const highestScrore = 10;
 const output = `I like the song ${song}. I gave it a score of ${
 	(score / highestScrore) * 100}%.`
 console.log(output);
+
+/* Number to String */
+const myNum = 123;
+const myString = String(myNum);
+console.log(typeof(myString));
+
+/* String to Number */
+console.log(
+	`${Number(123.5)} is a ${typeof(Number("123.5"))}`
+);
